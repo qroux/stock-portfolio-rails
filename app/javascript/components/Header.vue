@@ -12,6 +12,7 @@
         <router-link tag="li" to='/stocks' activeClass="active"><a class="nav-link">Stocks</a></router-link>
       </ul>
       <ul class="navbar-nav">
+        <router-link tag="li" to='/signup' activeClass="active"><a class="nav-link">Sign Up</a></router-link>
         <li class="nav-item mr-2">
           <a id='end' class="nav-link" @click="endDay">End Day</a>
         </li>
